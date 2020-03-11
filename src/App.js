@@ -1,19 +1,13 @@
 import React, { Component } from "react";
+import './app.scss';
+import Header from './component/header/index';
 
 class App extends Component {
 
-  componentDidMount() {
-    console.log(">>>Inside of Component Did Mount>>");
-    
-  }
-
-  componentWillUnmount() {
-console.log(">>>inside of component Will Mount>>>");
-  }
   render() {
     return (
       <div>
-          Hello world
+          <Header />
       </div>
     );
   }
